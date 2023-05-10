@@ -17,7 +17,7 @@
     <div id="top_A">
         <img style="padding-top: 50px;" src="./assets/logo.png" width="200px" />
         <h1>Take your graphics protection to the next level with DOL &nbsp; Max overlaminates</h1>
-        <h2>Pair with MPI 1105 wrapping film <br/> for ramped up protection</h2>
+        <h2>Pair with MPI 1105 wrapping film <br /> for ramped up protection</h2>
         <div id="points">
             <div class="p1">
                 <span class="dot"> <img id="img1" src="./assets/Group 194.svg" /></span>
@@ -50,7 +50,7 @@
             <li>Our digital overlaminates can be used on a variety of substrates, including banners, vehicle graphics,
                 outdoor signage, and more.</li>
         </ul>
-        <button id="inquire">Inquire now &rarr;</button>
+        <button id="inquire"  onclick="topFunction()">Inquire now &rarr;</button>
     </div>
 
 </div>
@@ -104,7 +104,7 @@
                     overlaminate films.</p>
             </div>
         </div>
-        <button id="Request">Request a call back &rarr;</button>
+        <button id="Request" onclick="topFunction()">Request a call back &rarr;</button>
     </div>
 
 
@@ -136,6 +136,78 @@
 </div>
 <div id="bottom">
     <h3>© 2023 Avery Dennison Label Packaging Material. All rights reserved.</h3>
+</div>
+
+<div id="form">
+    <h1 style="font-weight: 600;">Connect with us</h1>
+    <p style="padding-bottom: 20px;">for outstanding protective overlaminates</p>
+    <div class="data">
+        <div>
+            <p>First Name</p>
+            <input type="text" id="first_name"/>
+        </div>
+        <div>
+            <p>Last Name</p>
+            <input type="text" id="last_name" />
+        </div>
+    </div>
+    <div class="data">
+        <div>
+            <p>Email</p>
+            <input type="email" id="email"/>
+        </div>
+        <div>
+            <p>Contact Number</p>
+            <input type="number" id="contact" />
+        </div>
+    </div>
+    <div class="data">
+        <div>
+            <p>Company</p>
+            <input type="text" id="company"/>
+        </div>
+        <div>
+            <p>State</p>
+            <select style="width: 220px;" id="state">
+                <option>California</option>
+                <option>Washington</option>
+                <option>New York</option>
+                <option>Florida</option>
+                <option>Texas</option>
+                <option>New Mexico</option>
+                <option>Alabama</option>
+            </select>
+
+        </div>
+    </div>
+    <p style="padding-top: 15px;padding-bottom: 5px;">How would you describe yourself?</p>
+    <select style="width: 460px;" id="vender">
+        <option>Installer</option>
+        <option>Worker</option>
+        <option>Customer</option>
+        <option>Service</option>
+        <option>Showroom</option>
+    </select>
+
+    <p style="padding-top: 15px;padding-bottom: 5px;">Preferred Distributor:</p>
+    <select style="width: 460px;" id="distributor">
+        <option>Aerotect</option>
+        <option>Aerodesk</option>
+        <option>Flametect</option>
+        <option>Cloudflare</option>
+        <option>Nextgentech</option>
+        <option>Car Care</option>
+    </select>
+
+    <p style="padding-top: 15px;padding-bottom: 5px;">Additional Information</p>
+    <input style="height: 80px;width: 450px;" type="text" id="additional"/>
+    <br/>
+    <div style="display: flex;"> <input type="checkbox" />
+    <span style="padding-top: 20px;">&nbsp; I'd like to receive promotions, product information and service offers from Avery Dennison.</span></div>
+   
+   
+    <button id="submit" onclick="submit()">Submit &rarr;</button>
+
 </div>
 
 <body>
