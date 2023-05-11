@@ -13,9 +13,10 @@
         href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Baloo+Bhai+2&family=Baskervville&family=Cabin:wght@400;600&family=Kumbh+Sans:wght@200&family=Noto+Sans+JP:wght@300&family=Open+Sans&family=Poppins:wght@400;500;600&family=Roboto:wght@300;400&display=swap"
         rel="stylesheet">
 </head>
+<div id="mob_add"></div>
 <div id="Top-section">
     <div id="top_A">
-        <img style="padding-top: 50px;" src="./assets/logo.png" width="200px" />
+        <img id="img_top" src="./assets/logo.png"/>
         <h1>Take your graphics protection to the next level with DOL &nbsp; Max overlaminates</h1>
         <h2>Pair with MPI 1105 wrapping film <br /> for ramped up protection</h2>
         <div id="points">
@@ -37,7 +38,19 @@
     </div>
 </div>
 
-
+<div id="second_A_mob">
+    <h1>DOL Max Overlaminate Films</h1>
+    <p>Printed graphics deserve maximum protection, DOL Max is the solution.</p>
+    <h2>Features & Benefits:</h2>
+    <ul>
+        <li>Premium vertical durability of up to 7 years and up to 2 years horizontal durability protection.</li>
+        <li>The high gloss finish enhances the appearance of graphics and adds a special touch to help your graphics
+            stand out.</li>
+        <li>Our digital overlaminates can be used on a variety of substrates, including banners, vehicle graphics,
+            outdoor signage, and more.</li>
+    </ul>
+    <button id="inquire_mob"  onclick="topFunction()">Inquire now &rarr;</button>
+</div>
 <div id="second-section">
     <div id="second_A">
         <h1>DOL Max Overlaminate Films</h1>
@@ -56,10 +69,10 @@
 </div>
 
 <div id="third-section">
-    <div><img src="./assets/green.png" alt="plant_image" width="100%" height="100%" /></div>
+    <div id="third-section_B"><img src="./assets/green.png" alt="plant_image" width="100%" height="100%" /></div>
 
     <div id="third-section_B">
-        <h1 style="font-size: 51px; padding-top: 100px;padding-left: 100px; padding-bottom: 40px;">Why us?</h1>
+        <h1 id="ri">Why us?</h1>
         <div class="sections">
             <div><img src="./assets/Ellipse 19.svg" width="80px"><img id="float_imgx" src="./assets/Group 110.svg"
                     alt="quality" /></img></div>
@@ -97,7 +110,7 @@
         <div class="sections">
             <div><img src="./assets/Ellipse 19.svg" width="80px"><img id="float_img3" src="./assets/Path 68.svg"
                     alt="quality" /></img></div>
-            <div style="margin-left: -30px;">
+            <div id="pi">
                 <h2 style="color:#292929">Durability Assurance</h2>
                 <p style="color:#515151">Trust our products with confidence, as we offer industry leading durability
                     assurance for our
@@ -134,8 +147,31 @@
     </div>
 
 </div>
+
+<div id="foot_mob">
+    <div id="foot_B">
+        <h2 class="head2_mob">DOL Max Overlaminte films</h2>
+        <h2 class="head2_mob">Why us</h2>
+        <h2 class="head2_mob">Enquire now</h2>
+    </div>
+    <div id="foot_C" style="padding-top: 10px;">
+        <p class="p3_mob">Avery Dennison Overlaminte</p>
+        <p class="p3_mob">Avery Dennison Overlaminate films</p>
+        <p class="p3_mob">Avery Dennison Digital Overlaminate films</p>
+        <p class="p3_mob">Avery Dennison DOL</p>
+        <p class="p3_mob">Overlaminte</p>
+        <p class="p3_mob">Overlaminate films</p>
+        <p class="p3_mob">Digital Overlaminate films</p>
+    </div>
+</div>
+<div id="footer_A_mob">
+    <img id="logo_white" src="./assets/logo_white.png" />
+</div>
 <div id="bottom">
     <h3>© 2023 Avery Dennison Label Packaging Material. All rights reserved.</h3>
+</div>
+<div id="bottom_mob">
+    <h3>© 2023 Avery Dennison. All rights reserved.</h3>
 </div>
 
 <div id="form">
@@ -207,6 +243,74 @@
    
    
     <button id="submit" onclick="submit()">Submit &rarr;</button>
+
+</div>
+
+
+<div id="form_mob">
+    <h1 style="font-weight: 700;font-size: 20px;">Connect with us</h1>
+    <p style="padding-bottom: 20px;font-size: 16px;">for outstanding protective overlaminates</p>
+        <div>
+            <p>First Name</p>
+            <input type="text" id="first_name"/>
+        </div>
+        <div>
+            <p>Last Name</p>
+            <input type="text" id="last_name" />
+        </div>
+        <div>
+            <p>Email</p>
+            <input type="email" id="email"/>
+        </div>
+        <div>
+            <p>Contact Number</p>
+            <input type="number" id="contact" />
+        </div>
+        <div>
+            <p>Company</p>
+            <input type="text" id="company"/>
+        </div>
+        <div>
+            <p>State</p>
+            <select style="width: 300px;" id="state">
+                <option>California</option>
+                <option>Washington</option>
+                <option>New York</option>
+                <option>Florida</option>
+                <option>Texas</option>
+                <option>New Mexico</option>
+                <option>Alabama</option>
+            </select>
+
+        </div>
+    
+    <p style="padding-top: 15px;padding-bottom: 5px;">How would you describe yourself?</p>
+    <select style="width: 300px;" id="vender">
+        <option>Installer</option>
+        <option>Worker</option>
+        <option>Customer</option>
+        <option>Service</option>
+        <option>Showroom</option>
+    </select>
+
+    <p style="padding-top: 15px;padding-bottom: 5px;">Preferred Distributor:</p>
+    <select style="width: 300px;" id="distributor">
+        <option>Aerotect</option>
+        <option>Aerodesk</option>
+        <option>Flametect</option>
+        <option>Cloudflare</option>
+        <option>Nextgentech</option>
+        <option>Car Care</option>
+    </select>
+
+    <p style="padding-top: 15px;padding-bottom: 5px;">Additional Information</p>
+    <input style="height: 80px;width: 210px;" type="text" id="additional"/>
+    <br/>
+    <div style="display: flex;"> <input type="checkbox" />
+    <span style="padding-top: 20px;font-size: 12px;">&nbsp; I'd like to receive promotions, product information and service offers from Avery Dennison.</span></div>
+   
+   
+    <button id="submit_mob" onclick="submit()">Submit &rarr;</button>
 
 </div>
 
