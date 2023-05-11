@@ -3,6 +3,9 @@
     margin: 0px;
     font-family: 'Noto Sans JP', sans-serif;
 }
+button{
+    cursor: pointer;
+}
 
 #Top-section {
     background: url('./assets/top_image.png');
@@ -335,10 +338,12 @@
 #form_mob {
     display: none;
 }
-#mob_add{
+
+#mob_add {
     display: none;
 }
-#img_top{
+
+#img_top {
     width: 200px;
     padding-top: 50px;
 }
@@ -357,11 +362,13 @@
     #form {
         display: none;
     }
-    #img_top{
+
+    #img_top {
         width: 100px;
         padding-top: 0px;
     }
-    #top_A{
+
+    #top_A {
 
         padding-left: -60px;
         width: 80%;
@@ -486,7 +493,10 @@
         width: 100%;
         height: 625px;
         box-shadow: 0 0 30px 32px white inset;
-         margin-bottom: -300px;
+        /* -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,99.5)));
+        mask-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0)); */
+
+        margin-bottom: -300px;
     }
 
     #Top-section {
@@ -502,37 +512,37 @@
         gap: 10px;
         margin-top: 20px;
     }
-    
+
     .p1 {
         width: 15%;
         text-align: center;
         color: #5D5D5D;
         font-size: 10px;
     }
-    
+
     .p1 p {
         padding-top: 10px;
         font-size: 8px;
     }
-    
+
     #img1 {
         position: relative;
         top: 7px;
         width: 15px;
     }
-    
+
     #img2 {
         position: relative;
-        top:6px;
+        top: 6px;
         width: 20px;
     }
-    
+
     #img3 {
         position: relative;
         top: 5px;
-        width:25px;
+        width: 25px;
     }
-    
+
     .dot {
         height: 35px;
         width: 35px;
@@ -540,8 +550,8 @@
         border-radius: 50%;
         display: inline-block;
     }
-    
-    #mob_add{
+
+    #mob_add {
         display: block;
         background-color: #e5e4e4ea;
         height: 260px;
@@ -558,6 +568,7 @@
         font-weight: 800;
         color: #000000;
     }
+
     #top_A h2 {
         width: 85%;
         padding-top: 25px;
